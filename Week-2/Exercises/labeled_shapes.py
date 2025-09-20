@@ -1,4 +1,5 @@
 from expyriment import design, control, stimuli
+from expyriment.misc import geometry
 import expyriment
 import math
 
@@ -13,17 +14,13 @@ control.initialize(exp)
 
 pi = math.pi
 r = 33.333
+
 triangle = stimuli.Shape(
+    vertex_list=geometry.vertices_regular_polygon(3, 50),  # 3 côtés, rayon 60
     colour=(128, 0, 128),
-    vertex_list = [(r*math.cos(math.pi/2), r*math.sin(math.pi/2)),
-    (r*math.cos(7*math.pi/6), r*math.sin(7*math.pi/6)),     
-    (r*math.cos(11*math.pi/6), r*math.sin(11*math.pi/6))],
-    position=(-200, 0)   
+    position = (-200 , 0)
 )
-test= [(r*math.cos(math.pi/2), r*math.sin(math.pi/2)),
-    (r*math.cos(7*math.pi/6), r*math.sin(7*math.pi/6)),     
-    (r*math.cos(11*math.pi/6), r*math.sin(11*math.pi/6))]
-print(test)
+
 tab = []
 r2=25
 for i in range(6):

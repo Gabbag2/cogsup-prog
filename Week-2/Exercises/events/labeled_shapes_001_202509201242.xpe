@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Sat Sep 20 2025 12:42:51
+#sha1: 31da6e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+663,stdout,received,'[(2.041057587798936e-15, 33.333), (-28.867224784346696, -16.66649999999999), (28.867224784346682, -16.666500000000013)]'
+1219,design,log,
+#design: #exp: square
+#design: block_cnt,block_id,trial_cnt,trial_id
+1219,design,logged,
+1220,Experiment,started
+1224,Stimulus,presented,1
+1226,Stimulus,presented,3
+1228,Stimulus,presented,0
+1230,Stimulus,presented,4
+1233,Stimulus,presented,5
+1236,Stimulus,presented,6
+1240,Stimulus,presented,2
+7068,Keyboard,received,110,wait
+7069,Experiment,ended
