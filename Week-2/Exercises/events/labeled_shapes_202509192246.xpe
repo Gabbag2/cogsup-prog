@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 22:46:34
+#sha1: 17f4d2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+516,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000020C50552F80>'
+516,stderr,received,'Traceback (most recent call last):'
+516,stderr,received,'  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+517,stderr,received,'    if self._compression_filename is not None:'
+517,stderr,received,"AttributeError: 'Line' object has no attribute '_compression_filename'"
+518,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\expiremental approach\\cours2\\PPE\\Week-2\\Exercises\\labeled_shapes.py", line 34, in <module>\n    trait_tri = stimuli.Line(start_point= (r*math.cos(math.pi/2), r*math.sin(math.pi/2)) ,end_point= (r*math.cos(math.pi/2), r*math.sin(math.pi/2)+50))\nTypeError: Line.__init__() missing 1 required positional argument: \'line_width\''

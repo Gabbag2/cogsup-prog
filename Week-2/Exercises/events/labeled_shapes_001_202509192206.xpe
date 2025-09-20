@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Fri Sep 19 2025 22:06:44
+#sha1: 697301
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1219,design,log,
+#design: #exp: square
+#design: block_cnt,block_id,trial_cnt,trial_id
+1219,design,logged,
+1219,Experiment,started
+1226,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\expiremental approach\\cours2\\PPE\\Week-2\\Exercises\\labeled_shapes.py", line 25, in <module>\n    triangle.present(clear=True, update=False)\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present\n    self.preload(inhibit_ogl_compress=True)\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1059, in preload\n    self._get_surface(),\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 490, in _get_surface\n    tmp = self._create_surface()\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_shape.py", line 667, in _create_surface\n    pygame.draw.polygon(surface, self.colour, poly, 0)\nValueError: points argument must contain more than 2 points'
