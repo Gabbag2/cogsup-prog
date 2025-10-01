@@ -1,0 +1,28 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 21:10:21
+#sha1: 4b3c2c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+633,Stimulus,presented,0
+635,Stimulus,presented,1
+636,Stimulus,presented,2
+2649,Stimulus,presented,3
+2752,Stimulus,presented,4
+2754,Stimulus,presented,5
+2756,Stimulus,presented,6
+4767,Stimulus,presented,7
+4871,Stimulus,presented,8
+4874,Stimulus,presented,9
+4877,Stimulus,presented,10
+6890,Stimulus,presented,11
+6994,Stimulus,presented,12
+6996,Stimulus,presented,13
+6998,Stimulus,presented,14
+9005,Stimulus,presented,15
+9108,Stimulus,presented,16
+9110,Stimulus,presented,17
+9115,Stimulus,presented,18
+11121,Stimulus,presented,19
+11222,Keyboard,received,32,check

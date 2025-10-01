@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 21:28:29
+#sha1: 460191
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+672,Stimulus,presented,0
+674,Stimulus,presented,1
+675,Stimulus,presented,2
+683,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-4\\Exercises\\Ternus_display.py", line 82, in <module>\n    termus(radius = 50, ISI = 100, color_tags = color_tags , duration_circle = 2000)\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-4\\Exercises\\Ternus_display.py", line 17, in termus\n    circle_stim(radius = radius/5 , position = position , color = color_tags)\nNameError: name \'circle_stim\' is not defined'

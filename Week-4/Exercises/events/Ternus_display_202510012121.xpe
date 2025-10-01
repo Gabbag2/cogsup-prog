@@ -1,0 +1,41 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 21:21:46
+#sha1: dee154
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+609,Stimulus,presented,0
+610,Stimulus,presented,1
+613,Stimulus,presented,2
+615,Stimulus,presented,3
+615,Stimulus,presented,4
+617,Stimulus,presented,5
+2626,Stimulus,presented,6
+2727,Stimulus,presented,7
+2728,Stimulus,presented,8
+2730,Stimulus,presented,9
+4742,Stimulus,presented,10
+4845,Stimulus,presented,11
+4846,Stimulus,presented,12
+4851,Stimulus,presented,13
+6866,Stimulus,presented,14
+8980,Stimulus,presented,15
+9083,Stimulus,presented,16
+9085,Stimulus,presented,17
+9089,Stimulus,presented,18
+9091,Stimulus,presented,19
+9094,Stimulus,presented,20
+9099,Stimulus,presented,21
+11112,Stimulus,presented,22
+11215,Stimulus,presented,23
+11215,Stimulus,presented,24
+11218,Stimulus,presented,25
+13231,Stimulus,presented,26
+13334,Stimulus,presented,27
+13335,Stimulus,presented,28
+13338,Stimulus,presented,29
+15349,Stimulus,presented,30
+15450,Keyboard,received,32,check
+17462,Stimulus,presented,31
+17563,Keyboard,received,32,check
