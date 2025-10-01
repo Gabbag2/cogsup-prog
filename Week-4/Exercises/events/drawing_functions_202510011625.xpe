@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 16:25:56
+#sha1: 355a20
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+835,stdout,received,'Preloading function not implemneted correctly.'
+847,Stimulus,presented,21
+847,stdout,received,'Preloading function not implemneted correctly.'
+856,Stimulus,presented,22
+857,stdout,received,'Preloading function not implemneted correctly.'
+867,Stimulus,presented,23
+868,stdout,received,'Preloading function not implemneted correctly.'
+877,Stimulus,presented,24
+878,stdout,received,'Preloading function not implemneted correctly.'
+887,Stimulus,presented,25
+889,stdout,received,'Preloading function not implemneted correctly.'
+898,Stimulus,presented,26
+899,stdout,received,'Preloading function not implemneted correctly.'
+921,Stimulus,presented,27
+921,stdout,received,'Preloading function not implemneted correctly.'
+932,Stimulus,presented,28
+976,stdout,received,'Preloading function not implemneted correctly.'
+989,Stimulus,presented,29
+1002,stdout,received,'Preloading function not implemneted correctly.'
+1011,Stimulus,presented,30
+1022,stdout,received,'Preloading function not implemneted correctly.'
+1032,Stimulus,presented,31
+1033,stdout,received,'Preloading function not implemneted correctly.'
+1043,Stimulus,presented,32
+1044,stdout,received,'Preloading function not implemneted correctly.'
+1055,Stimulus,presented,33
+1055,stdout,received,'Preloading function not implemneted correctly.'
+1065,Stimulus,presented,34
+1065,stdout,received,'Preloading function not implemneted correctly.'
+1080,Stimulus,presented,35
+1080,stdout,received,'Preloading function not implemneted correctly.'
+1092,Stimulus,presented,36
+1092,stdout,received,'Preloading function not implemneted correctly.'
+1103,Stimulus,presented,37
+1103,stdout,received,'Preloading function not implemneted correctly.'
+1115,Stimulus,presented,38
+1115,stdout,received,'Preloading function not implemneted correctly.'
+1126,Stimulus,presented,39
+1127,stdout,received,'Preloading function not implemneted correctly.'
+1136,Stimulus,presented,40
+1136,stdout,received,'[12, 10, 10, 11, 10, 10, 23, 11, 57, 23, 21, 11, 11, 10, 15, 12, 11, 12, 11, 10]'
+1136,Experiment,ended
+1141,Stimulus,presented,41

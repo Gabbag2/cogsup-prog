@@ -1,0 +1,9 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 16:37:32
+#sha1: c880f3
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+778,stdout,received,'Preloading function not implemneted correctly.'
+779,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-4\\Exercises\\drawing_functions.py", line 48, in <module>\n    present_for(stims, 500)\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-4\\Exercises\\drawing_functions.py", line 24, in present_for\n    t1 = timed_draw(stims,canvas)\nTypeError: timed_draw() missing 1 required positional argument: \'t\''
