@@ -1,0 +1,31 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpd-file, coding: cp1252
+#date: Wed Oct 08 2025 17:04:44
+#--EXPERIMENT INFO
+#e mainfile: stroop.py
+#e sha1: ca2e74
+#e modules: 
+#e Experiment: Blindspot
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+1,0,0,bad,orange,"Colour(red=0, green=255, blue=0)",808,False
+1,0,1,bad,green,"Colour(red=255, green=165, blue=0)",1257,False
+1,0,2,good,green,"Colour(red=0, green=255, blue=0)",639,False
+1,0,3,bad,orange,"Colour(red=0, green=255, blue=0)",597,False
+1,0,4,bad,red,"Colour(red=255, green=165, blue=0)",559,False
+1,0,5,good,red,"Colour(red=255, green=0, blue=0)",523,False
+1,0,6,bad,green,"Colour(red=255, green=0, blue=0)",549,False
+1,0,7,bad,green,"Colour(red=255, green=0, blue=0)",522,False
+1,0,8,bad,orange,"Colour(red=0, green=255, blue=0)",677,False
+1,0,9,bad,red,"Colour(red=255, green=165, blue=0)",654,False
+1,1,0,bad,green,"Colour(red=255, green=0, blue=0)",571,False
+1,1,1,good,red,"Colour(red=255, green=0, blue=0)",663,True
+1,1,2,bad,red,"Colour(red=0, green=0, blue=255)",577,False
+1,1,3,good,green,"Colour(red=0, green=255, blue=0)",584,False
+1,1,4,bad,orange,"Colour(red=255, green=0, blue=0)",660,False
+1,1,5,bad,green,"Colour(red=0, green=0, blue=255)",653,False
+1,1,6,bad,green,"Colour(red=255, green=0, blue=0)",594,False
+1,1,7,good,orange,"Colour(red=255, green=165, blue=0)",585,False
+1,1,8,bad,orange,"Colour(red=0, green=0, blue=255)",795,False
+1,1,9,good,blue,"Colour(red=0, green=0, blue=255)",1149,True

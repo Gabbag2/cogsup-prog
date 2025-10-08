@@ -1,0 +1,53 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 15:33:37
+#sha1: d3eebe
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2961,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2961,design,logged,
+2961,Experiment,started
+2983,Stimulus,presented,1
+5058,Keyboard,received,1073741906,wait
+5061,Stimulus,presented,1
+7011,Keyboard,received,1073741906,wait
+7016,Stimulus,presented,1
+7022,Keyboard,received,1073741904,wait
+7025,Stimulus,presented,1
+7288,Keyboard,received,1073741906,wait
+7292,Stimulus,presented,1
+7365,Keyboard,received,1073741904,wait
+7368,Stimulus,presented,1
+7487,Keyboard,received,1073741906,wait
+7491,Stimulus,presented,1
+7540,Keyboard,received,1073741904,wait
+7543,Stimulus,presented,1
+7648,Keyboard,received,1073741906,wait
+7651,Stimulus,presented,1
+7734,Keyboard,received,1073741904,wait
+7738,Stimulus,presented,1
+7813,Keyboard,received,1073741906,wait
+7817,Stimulus,presented,1
+7951,Keyboard,received,1073741904,wait
+7956,Stimulus,presented,1
+7988,Keyboard,received,1073741906,wait
+7994,Stimulus,presented,1
+8094,Keyboard,received,1073741904,wait
+8097,Stimulus,presented,1
+8348,Keyboard,received,1073741906,wait
+8352,Stimulus,presented,1
+8427,Keyboard,received,1073741904,wait
+8431,Stimulus,presented,1
+8626,Keyboard,received,1073741904,wait
+8631,Stimulus,presented,1
+8759,Keyboard,received,1073741906,wait
+8763,Stimulus,presented,1
+8871,Keyboard,received,1073741904,wait
+8874,Stimulus,presented,1
+8980,Keyboard,received,1073741906,wait
+8984,Stimulus,presented,1
+10522,Keyboard,received,49,wait
+10539,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-5\\Exercises\\blindspot.py", line 52, in <module>\n    run_trial()\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-5\\Exercises\\blindspot.py", line 25, in run_trial\n    modifications(circle)\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-5\\Exercises\\blindspot.py", line 45, in modifications\n    circle.scale(1.2)\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1317, in scale\n    raise RuntimeError(Visual._exception_message.format(\nRuntimeError: Cannot call scale() on preloaded or compressed stimulus!'

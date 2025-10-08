@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 17:00:27
+#sha1: 43d894
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3631,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+3631,design,logged,
+3631,Experiment,started
+3657,Stimulus,presented,0
+3664,Stimulus,presented,1
+7956,Keyboard,received,32,wait
+7962,Stimulus,presented,2
+9597,Keyboard,received,1073741903,wait
+9603,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-5\\Exercises\\stroop.py", line 35, in <module>\n    stroop()\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-5\\Exercises\\stroop.py", line 29, in stroop\n    type_trial = "good" if (word == "red" and color == C_RED) or (word == "blue" and color == C_BLUE) or (word == "green" and color == C_GREEN) or (word == "orange" and color == C_ORANGE) else "bad"\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\misc\\_colour.py", line 353, in __eq__\n    return self._rgb == other._rgb\nAttributeError: \'tuple\' object has no attribute \'_rgb\''
