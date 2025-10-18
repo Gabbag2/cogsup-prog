@@ -1,0 +1,8 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Sat Oct 18 2025 11:36:27
+#sha1: 531bc5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+857,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-6\\Exercises\\stroop_balanced.py", line 77, in <module>\n    exp.data.add_variable_names(["block", "trial_number", "trial_type", "word", "color_name", "key_pressed", "RT", "accuracy"])\nAttributeError: \'NoneType\' object has no attribute \'add_variable_names\''

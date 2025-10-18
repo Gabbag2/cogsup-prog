@@ -1,0 +1,8 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Sat Oct 18 2025 11:35:00
+#sha1: 5c3b33
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1143,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-6\\Exercises\\stroop_balanced.py", line 54, in <module>\n    trial.set_factor("color", trial_dict["color"])\n  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\design\\_structure.py", line 1887, in set_factor\n    raise TypeError(message)\nTypeError: Factor values or factor conditions must to be a string or a numeric (i.e. float or integer).\n <class \'expyriment.misc._colour.Colour\'> is not allowed.'

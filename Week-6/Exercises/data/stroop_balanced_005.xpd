@@ -1,0 +1,34 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpd-file, coding: cp1252
+#date: Sat Oct 18 2025 11:42:51
+#--EXPERIMENT INFO
+#e mainfile: stroop_balanced.py
+#e sha1: 96431f
+#e modules: 
+#e Experiment: Stroop
+#e no between subject factors
+#e Block 0: Block 1
+#e     block factors: 
+#e     n trials: 8
+#e     trial factors: trial_type = [match, mismatch]
+#e                    word = [blue, green, orange, red]
+#e                    color_name = [blue, green, orange, red]
+#e                    
+#--SUBJECT INFO
+#s id: 5
+subject_id,block,trial_number,trial_type,word,color_name,key_pressed,RT,accuracy
+5,1,1,mismatch,red,blue,RIGHT,389,incorrect
+5,1,2,match,orange,orange,RIGHT,52,correct
+5,1,3,match,blue,blue,RIGHT,27,correct
+5,1,4,mismatch,blue,red,RIGHT,669,incorrect
+5,1,5,mismatch,orange,green,RIGHT,233,incorrect
+5,1,6,match,green,green,RIGHT,86,correct
+5,1,7,mismatch,green,orange,RIGHT,66,incorrect
+5,1,8,match,red,red,RIGHT,5,correct
+5,2,1,mismatch,red,blue,RIGHT,57,incorrect
+5,2,2,match,orange,orange,RIGHT,20,correct
+5,2,3,match,blue,blue,RIGHT,93,correct
+5,2,4,mismatch,blue,red,RIGHT,35,incorrect
+5,2,5,mismatch,orange,green,RIGHT,85,incorrect
+5,2,6,match,green,green,RIGHT,72,correct
+5,2,7,mismatch,green,orange,RIGHT,79,incorrect
+5,2,8,match,red,red,RIGHT,92,correct

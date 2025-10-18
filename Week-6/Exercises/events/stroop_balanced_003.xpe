@@ -1,0 +1,26 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Sat Oct 18 2025 11:41:00
+#sha1: 6a8763
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+811,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id,color_name,trial_type,word
+#design: 0,0,0,4,blue,mismatch,red
+#design: 0,0,1,7,green,mismatch,orange
+#design: 0,0,2,6,orange,mismatch,green
+#design: 0,0,3,5,red,mismatch,blue
+#design: 0,0,4,3,orange,match,orange
+#design: 0,0,5,2,green,match,green
+#design: 0,0,6,1,blue,match,blue
+#design: 0,0,7,0,red,match,red
+811,design,logged,
+811,Experiment,started
+812,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000013B0DB2B400>'
+812,stderr,received,'Traceback (most recent call last):'
+812,stderr,received,'  File "C:\\Users\\gabri\\anaconda3\\envs\\gab\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+813,stderr,received,'    if self._compression_filename is not None:'
+813,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+814,stderr,received,'Traceback (most recent call last):\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-6\\Exercises\\stroop_balanced.py", line 114, in <module>\n    run_stroop()\n  File "C:\\Users\\gabri\\Desktop\\exp approach\\moi\\cogsup-prog\\Week-6\\Exercises\\stroop_balanced.py", line 66, in run_stroop\n    instructions = stimuli.TextScreen(\nTypeError: TextScreen.__init__() missing 1 required positional argument: \'text\''
