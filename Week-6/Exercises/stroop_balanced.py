@@ -1,6 +1,7 @@
 from expyriment import design, control, stimuli
 from expyriment.misc.constants import C_WHITE, C_BLACK, C_GREEN, C_RED, C_BLUE
-from expyriment.misc.constants import K_LEFT, K_RIGHT
+from expyriment.misc.constants import K_o , K_r , K_g , K_b
+
 from expyriment.misc import Colour
 import random
 import itertools
@@ -64,7 +65,7 @@ exp.add_block(block)
 def run_stroop():
 
     instructions = stimuli.TextScreen(
-        "Instructions", "Press K_right if it's good and K_left if it's bad, please press any key to start.",
+        "Instructions", "Press o if it's orange, r if it's red, g if it's green, b if it's blue, please press any key to start.",
         text_colour=C_BLACK
     )
     instructions.present()
@@ -83,15 +84,14 @@ def run_stroop():
             exp.clock.wait(500)
             
             trial.stimuli[0].present(clear=True, update=True)
-            key, rt = exp.keyboard.wait(keys=[K_LEFT, K_RIGHT])
+            key, rt = exp.keyboard.wait(keys=[K_o , K_r , K_g , K_b])
             
-            correct_response = K_RIGHT if trial_type == "match" else K_LEFT
-            accuracy = "correct" if key == correct_response else "incorrect"
+            accuracy = "correct" if key == K_o and color_name == "orange" or key == K_r and color_name == "red" or key == K_g and color_name == "green" or key == K_b and color_name == "blue" else "incorrect"
             exp.data.add([block_num + 1, trial_num + 1, trial_type, word, color_name, 
-                         "RIGHT" if key == K_RIGHT else "LEFT", rt, accuracy])
+                         key, rt, accuracy])
     
             feedback_color = C_GREEN if accuracy == "correct" else C_RED
-            feedback_text = f"{'Correct' if accuracy == 'correct' else 'Incorrect'}\nTemps: {rt} ms"
+            feedback_text = f"{'Correct' if accuracy == 'correct' else 'Incorrect'} Temps: {rt} ms"
             feedback = stimuli.TextLine(feedback_text, text_colour=feedback_color, text_size=30)
             feedback.present(clear=True, update=True)
             exp.clock.wait(1000)

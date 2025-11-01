@@ -1,0 +1,49 @@
+#Expyriment 1.0.0 (Python 3.10.16), .xpe-file, coding: cp1252
+#date: Sat Nov 01 2025 16:43:23
+#sha1: 96431f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='PC_de_Gabriel', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1712,design,log,
+#design: #exp: Stroop
+#design: block_cnt,block_id,trial_cnt,trial_id,color_name,trial_type,word
+#design: 0,0,0,1,blue,match,blue
+#design: 0,0,1,5,red,mismatch,blue
+#design: 0,0,2,0,red,match,red
+#design: 0,0,3,4,blue,mismatch,red
+#design: 0,0,4,2,green,match,green
+#design: 0,0,5,6,orange,mismatch,green
+#design: 0,0,6,7,green,mismatch,orange
+#design: 0,0,7,3,orange,match,orange
+1712,design,logged,
+1712,Experiment,started
+1731,Stimulus,presented,8
+3748,Keyboard,received,1073741903,wait
+3753,Stimulus,presented,9
+4255,Stimulus,presented,1
+4590,Keyboard,received,1073741903,wait
+4599,Stimulus,presented,10
+5605,Stimulus,presented,9
+6110,Stimulus,presented,5
+6783,Keyboard,received,1073741904,wait
+6790,Stimulus,presented,11
+7797,Stimulus,presented,9
+8300,Stimulus,presented,0
+8575,Keyboard,received,1073741903,wait
+8582,Stimulus,presented,12
+9588,Stimulus,presented,9
+10090,Stimulus,presented,4
+10289,Keyboard,received,1073741903,wait
+10295,Stimulus,presented,13
+11300,Stimulus,presented,9
+11804,Stimulus,presented,2
+11815,Keyboard,received,1073741904,wait
+11822,Stimulus,presented,14
+12826,Stimulus,presented,9
+13330,Stimulus,presented,6
+13775,Experiment,paused
+13789,Stimulus,presented,15
+14150,Keyboard,received,y,wait_char
+14150,Experiment,ended
+14184,Data,saved
