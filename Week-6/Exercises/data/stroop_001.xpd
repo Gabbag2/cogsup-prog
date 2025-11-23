@@ -1,5 +1,5 @@
 #Expyriment 1.0.0 (Python 3.10.16), .xpd-file, coding: cp1252
-#date: Sat Nov 01 2025 16:41:40
+#date: Sun Nov 23 2025 16:04:24
 #--EXPERIMENT INFO
 #e mainfile: stroop.py
 #e sha1: 00b3e3
@@ -8,11 +8,7 @@
 #e no between subject factors
 #--SUBJECT INFO
 #s id: 1
-subject_id,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy
-1,0,0,True,blue,"Colour(red=0, green=0, blue=255)",482,True
-1,0,1,True,red,"Colour(red=255, green=0, blue=0)",96,False
-1,0,2,False,green,"Colour(red=0, green=0, blue=255)",648,True
-1,0,3,False,red,"Colour(red=0, green=255, blue=0)",146,True
-1,0,4,False,red,"Colour(red=0, green=255, blue=0)",2655,False
-1,0,5,True,green,"Colour(red=0, green=255, blue=0)",124,True
-1,0,6,False,orange,"Colour(red=255, green=0, blue=0)",32,False
+subject_id,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy,trial block,trial number,trial type,word meaning,text color,RTs,accuracy
+1,0,0,False,orange,"Colour(red=255, green=0, blue=0)",3651,True
+1,0,1,False,green,"Colour(red=0, green=0, blue=255)",300,False
+1,0,2,False,green,"Colour(red=255, green=0, blue=0)",500,False
